@@ -35,6 +35,7 @@ public class DBUtils {
                 throw new RuntimeException(e);
             }
         }
+
         if(ps!=null){
             try {
                 ps.close();
